@@ -1,6 +1,8 @@
 # Conan: The Corpus
 This corpus was made to assist the visual analysis of Conan, a character created by Robert E. Howard. The focus is on the visuality of digital games from the 80ies. What unites them is their visual reference to Conan. This inquiry was initiated via another analysis of the digital game Ball Raider (1987), whose start screen features a reference to He-Man from Masters of the Universe, a franchise inspired by Conan.
 
+[![DOI](https://zenodo.org/badge/687010217.svg)](https://zenodo.org/badge/latestdoi/687010217)
+
 ## Methodology
 - Design rhetoric on the [visual material](#visual-material)
 - [Corpus analysis](#corpus-analysis) of original Conan stories
