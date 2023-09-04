@@ -1,8 +1,8 @@
 import json, os, pathlib, spacy
 
 # clean extract file
-if os.path.exists('conan_adj.txt'):
-    os.remove('conan_adj.txt')
+if os.path.exists('conan_adj.json'):
+    os.remove('conan_adj.json')
 
 adjs = {}
 
@@ -64,5 +64,5 @@ sorted_adjs = dict(sorted(adjs.items()))
 
 # write those adjectives
 json_adjs = json.dumps(sorted_adjs, indent=4)
-with open("conan_adj.txt", "w") as outfile:
+with open("conan_adj.json", "w") as outfile:
     outfile.write(json_adjs)
