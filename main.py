@@ -35,19 +35,10 @@ for counter, file in enumerate(texts):
 
         # go through all the sentences of the text
         for sent in doc.sents:
-
-            # simple workaround to evade duplicates in the extract
-            matched = False
-
             for match_id, start, end in phrase_matcher(nlp(sent.text)):
-
-                if(matched):
-                    continue
 
                 # check if Conan or other males are present
                 if nlp.vocab.strings[match_id] in ["Conan"]:
-
-                    matched = True
                     
                     # check if sentence contains adjectives
                     pos_types = [token.pos_ for token in sent]
