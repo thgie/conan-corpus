@@ -1,0 +1,1191 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@vocab": "https://tropy.org/v1/tropy#",
+    "template": {
+      "@type": "@id"
+    },
+    "photo": {
+      "@id": "https://tropy.org/v1/tropy#photo",
+      "@container": "@list"
+    },
+    "note": {
+      "@id": "https://tropy.org/v1/tropy#note",
+      "@container": "@list"
+    },
+    "selection": {
+      "@id": "https://tropy.org/v1/tropy#selection",
+      "@container": "@list"
+    },
+    "artist": "http://www.w3.org/2003/12/exif/ns#artist",
+    "media": "http://id.loc.gov/ontologies/bibframe/media",
+    "date": {
+      "@id": "http://purl.org/dc/elements/1.1/date",
+      "@type": "https://tropy.org/v1/tropy#date"
+    },
+    "title": "http://purl.org/dc/elements/1.1/title",
+    "description": "http://purl.org/dc/elements/1.1/description",
+    "computingPlatform": "http://dbpedia.org/ontology/computingPlatform"
+  },
+  "@graph": [
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Margaret Brundage",
+      "media": "Magazine",
+      "date": "1933",
+      "title": "Weird Tales (May 1934)",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "f99ba002e357eb5a933605fd9e32528b",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Weird_Tales_1934-05_-_Queen_of_the_Black_Coast.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/f99ba002e357eb5a933605fd9e32528b.jpg",
+          "protocol": "file",
+          "size": 819130,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1478,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 995,
+          "title": "Weird_Tales_1934-05_-_Queen_of_the_Black_Coast",
+          "date": 1306099844000,
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "The feature story is Robert E. Howard's \"Queen of the Black Coast\".",
+                "@language": "en"
+              },
+              "markdown": {
+                "@value": "The feature story is Robert E. Howard's \"Queen of the Black Coast\".",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "John Forte",
+      "media": "Book",
+      "date": "1950",
+      "title": "Conan the Conqueror ",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "e02bcede3edc1fc73c8f9742733cc73c",
+          "color": "rgb(216,104,24,1)",
+          "density": null,
+          "filename": "30384492633.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/e02bcede3edc1fc73c8f9742733cc73c.jpg",
+          "protocol": "file",
+          "size": 197776,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1500,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1005,
+          "title": "30384492633",
+          "date": "2023-08-22T08:30:16.921Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Norman Saunders",
+      "media": "Magazine",
+      "date": "1953",
+      "title": "Ace Double D36",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "ec5cc7355b55deb58c9ff2efeb58b344",
+          "color": "rgb(56,24,24,1)",
+          "density": null,
+          "filename": "Ace_double_D-36_1953_cover_(one_side_of_tete_beche).jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/ec5cc7355b55deb58c9ff2efeb58b344.jpg",
+          "protocol": "file",
+          "size": 464786,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1592,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1024,
+          "title": "Ace_double_D-36_1953_cover_(one_side_of_tete_beche)",
+          "date": "2023-08-22T08:31:38.222Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "One side cover of Ace Double D36 (1953) for CONAN the CONQUEROR, the first paperback edition of the book",
+                "@language": "en"
+              },
+              "markdown": {
+                "@value": "One side cover of Ace Double D36 (1953) for CONAN the CONQUEROR, the first paperback edition of the book",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Margaret Brundage",
+      "media": "Magazine",
+      "date": "1953-12",
+      "title": "Weird Tales (December 1935)",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "f7c1682c4b48c33c3fd5ad2d034f617a",
+          "color": "rgb(40,24,40,1)",
+          "density": null,
+          "filename": "Weird_Tales_1935-12_-_The_Hour_of_the_Dragon.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/f7c1682c4b48c33c3fd5ad2d034f617a.jpg",
+          "protocol": "file",
+          "size": 606217,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1461,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 989,
+          "title": "Weird_Tales_1935-12_-_The_Hour_of_the_Dragon",
+          "date": 1306100813000,
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": " Cover of Weird Tales (December 1935): The feature story is Robert E. Howard's \"The Hour of the Dragon\".",
+                "@language": "en"
+              },
+              "markdown": {
+                "@value": " Cover of Weird Tales (December 1935): The feature story is Robert E. Howard's \"The Hour of the Dragon\".",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "media": "Book",
+      "artist": "\tEd Emshwiller",
+      "date": "1955",
+      "title": "Conan the Barbarian",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "5f1ad80377622a5a45833e8749072215",
+          "color": "rgb(232,216,8,1)",
+          "density": null,
+          "filename": "tumblr_o2cov6k0vP1qzr8nao1_1280.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/5f1ad80377622a5a45833e8749072215.jpg",
+          "protocol": "file",
+          "size": 619100,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1483,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1000,
+          "title": "tumblr_o2cov6k0vP1qzr8nao1_1280",
+          "date": "2023-08-22T08:12:33.131Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "Published by Gnome Press",
+                "@language": "en"
+              },
+              "markdown": {
+                "@value": "Published by Gnome Press",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Frank Frazetta",
+      "media": "Book",
+      "date": "1966",
+      "title": "Conan the Adventurer",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "01cd4910b6bb9094abd8704699f66dda",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "14539434635_ea7488eae9_o-600x1016.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/01cd4910b6bb9094abd8704699f66dda.jpg",
+          "protocol": "file",
+          "size": 135531,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1016,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 600,
+          "title": "14539434635_ea7488eae9_o-600x1016",
+          "date": "2023-08-22T08:18:29.684Z",
+          "description": "CREATOR: gd-jpeg v1.0 (using IJG JPEG v62), quality = 82\n"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Frank Frazetta",
+      "media": "Book",
+      "date": "1967",
+      "title": "Conan the Usurper",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "8fd960dbdcb85c7b3e4e792f02448363",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "14352788320_3c14c79354_o.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/8fd960dbdcb85c7b3e4e792f02448363.jpg",
+          "protocol": "file",
+          "size": 3068775,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 3515,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 2132,
+          "title": "14352788320_3c14c79354_o",
+          "date": 1403987650000
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Frank Frazetta",
+      "media": "Book",
+      "date": "1967",
+      "title": "Conan the Conquerer",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "9e5255ddefddc56480874cff0504dc6b",
+          "color": "rgb(248,248,200,1)",
+          "density": null,
+          "filename": "14539427835_ed3109fb3b_o.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/9e5255ddefddc56480874cff0504dc6b.jpg",
+          "protocol": "file",
+          "size": 2734828,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 3476,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 2117,
+          "title": "14539427835_ed3109fb3b_o",
+          "date": 1403987786000
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Frank Frazetta",
+      "media": "Book",
+      "date": "1967",
+      "title": "Conan the Warrior",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "8a3412a07c0a7464d14942db2b48348a",
+          "color": "rgb(248,248,232,1)",
+          "density": null,
+          "filename": "14352977157_203a28a7e5_o.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/8a3412a07c0a7464d14942db2b48348a.jpg",
+          "protocol": "file",
+          "size": 2922757,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 3515,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 2107,
+          "title": "14352977157_203a28a7e5_o",
+          "date": 1403987926000
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "John Duillo",
+      "media": "Book",
+      "date": "1968",
+      "title": "Conan the Wanderer",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "3ae305e25de809c38dc78f0b67364e7a",
+          "color": "rgb(40,40,40,1)",
+          "density": null,
+          "filename": "71xUcRRhBgL.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/3ae305e25de809c38dc78f0b67364e7a.jpg",
+          "protocol": "file",
+          "size": 175111,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1024,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 627,
+          "title": "71xUcRRhBgL",
+          "date": "2023-08-22T08:38:51.833Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Frank Frazetta",
+      "media": "Book",
+      "date": "1969",
+      "title": "Conan of Cimmeria",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "e309a9fe0fe0a95d3c775a461824959d",
+          "color": "rgb(248,248,248,1)",
+          "density": null,
+          "filename": "Lair of the Ice Worm.JPG",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/e309a9fe0fe0a95d3c775a461824959d.jpg",
+          "protocol": "file",
+          "size": 122391,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1023,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 618,
+          "title": "Lair of the Ice Worm",
+          "date": "2023-08-22T08:15:24.120Z",
+          "note": [
+            {
+              "@type": "Note",
+              "text": {
+                "@value": "This is the front cover art for the book Conan of Cimmeria written by Robert E. Howard, L. Sprague de Camp and Lin Carter. The book cover art copyright is believed to belong to the publisher, Lancer Books, or the cover artist, Frank Frazetta.",
+                "@language": "en"
+              },
+              "markdown": {
+                "@value": "This is the front cover art for the book *Conan of Cimmeria* written by [Robert E. Howard](https://en.wikipedia.org/wiki/Robert_E._Howard), [L. Sprague de Camp](https://en.wikipedia.org/wiki/L._Sprague_de_Camp) and [Lin Carter](https://en.wikipedia.org/wiki/Lin_Carter). The book cover art copyright is believed to belong to the publisher, [Lancer Books](https://en.wikipedia.org/wiki/Lancer_Books), or the cover artist, [Frank Frazetta](https://en.wikipedia.org/wiki/Frank_Frazetta).",
+                "@language": "en"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "media": "Comic",
+      "artist": "Barry Windsor-Smith",
+      "date": "1970-10",
+      "title": "The cover to Conan the Barbarian #1",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "a081f6b135d60c8ffacb6c24dd63ed20",
+          "color": "rgb(232,200,184,1)",
+          "density": null,
+          "filename": "RCO001.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/a081f6b135d60c8ffacb6c24dd63ed20.jpg",
+          "protocol": "file",
+          "size": 367088,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1378,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 934,
+          "title": "RCO001",
+          "date": "2023-08-22T08:07:29.226Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Frank Frazetta",
+      "media": "Book",
+      "date": "1971",
+      "title": "Conan the Buccaneer",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "6b071d746745785acc6dc760ab42c5b4",
+          "color": "rgb(40,24,24,1)",
+          "density": null,
+          "filename": "conan-the-buccaneer.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/6b071d746745785acc6dc760ab42c5b4.jpg",
+          "protocol": "file",
+          "size": 35339,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 833,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 489,
+          "title": "conan-the-buccaneer",
+          "date": "2023-08-22T08:23:28.816Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Renato Casaro",
+      "media": "Film Poster",
+      "date": "1982",
+      "title": "Theatrical poster for Conan the Barbarian",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "7ad1a1299566840dac2e80ab0eb35ca5",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "MV5BMWYwZGU1N2UtNTU5My00ZTVkLThjZDktZTQzZmEyMzZjMTdmXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/7ad1a1299566840dac2e80ab0eb35ca5.jpg",
+          "protocol": "file",
+          "size": 2324080,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 2895,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1915,
+          "title": "MV5BMWYwZGU1N2UtNTU5My00ZTVkLThjZDktZTQzZmEyMzZjMTdmXkEyXkFqcGdeQXVyMjUzOTY1NTc@._V1_",
+          "date": "2023-08-22T08:27:04.219Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Frank Frazetta",
+      "media": "Film Poster",
+      "date": "1982",
+      "title": "Alternative poster of Conan the Barbarian",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "3319ff73c36333bfd291abfeb92b4316",
+          "color": "rgb(232,232,232,1)",
+          "density": null,
+          "filename": "conan_the_barbarian_ver2.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/3319ff73c36333bfd291abfeb92b4316.jpg",
+          "protocol": "file",
+          "size": 112899,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 755,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 460,
+          "title": "conan_the_barbarian_ver2",
+          "date": 1569532265000
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "date": "1984",
+      "media": "Film Poster",
+      "title": "Theatrical poster for Conan the Destroyer",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "32721d0750f9e2f377a5ff9ead56aa40",
+          "color": "rgb(40,40,40,1)",
+          "density": null,
+          "filename": "MV5BNDExOWE2N2YtN2QyMi00ZWI2LWE4MDAtZWJiNjg4MTI3NzI0L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/32721d0750f9e2f377a5ff9ead56aa40.jpg",
+          "protocol": "file",
+          "size": 103865,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 755,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 476,
+          "title": "MV5BNDExOWE2N2YtN2QyMi00ZWI2LWE4MDAtZWJiNjg4MTI3NzI0L2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_",
+          "date": "2023-08-22T08:35:33.314Z",
+          "description": "LEAD Technologies Inc. V1.01\u0000 \u0000"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "computingPlatform": "ZX Spectrum",
+      "date": "1987",
+      "title": "Barbarian (Death Sword, 1987) - ZX Spectrum",
+      "list": [
+        "Covers",
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "11704786af2bff7bc0e48bac3ff3c904",
+          "color": "rgb(40,24,24,1)",
+          "density": null,
+          "filename": "2200658-death-sword-zx-spectrum-front-cover.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/11704786af2bff7bc0e48bac3ff3c904.jpg",
+          "protocol": "file",
+          "size": 119946,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 800,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 802,
+          "title": "2200658-death-sword-zx-spectrum-front-cover",
+          "date": "2023-08-22T09:50:30.550Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "computingPlatform": "ZX Spectrum",
+      "date": "1987",
+      "title": "Barbarian (Death Sword, 1987) Back Cover - ZX Spectrum",
+      "list": [
+        "Covers",
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "75bf2bbc46b8b9cb9bebf06f3d9ce6f1",
+          "color": "rgb(72,56,40,1)",
+          "density": null,
+          "filename": "2201953-death-sword-zx-spectrum-back-cover.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/75bf2bbc46b8b9cb9bebf06f3d9ce6f1.jpg",
+          "protocol": "file",
+          "size": 118008,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 800,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 806,
+          "title": "2201953-death-sword-zx-spectrum-back-cover",
+          "date": "2023-08-22T09:51:04.182Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "computingPlatform": "Commodore 64",
+      "date": "1987",
+      "title": "Barbarian (Death Sword, 1987) - Commodore 64",
+      "list": [
+        "Covers",
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "87b0f31a8bdde97f1f861e4b61f30c05",
+          "color": "rgb(8,8,24,1)",
+          "density": null,
+          "filename": "2764022-death-sword-commodore-64-front-cover.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/87b0f31a8bdde97f1f861e4b61f30c05.jpg",
+          "protocol": "file",
+          "size": 112912,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 800,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 812,
+          "title": "2764022-death-sword-commodore-64-front-cover",
+          "date": "2023-08-22T09:50:54.202Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "computingPlatform": "Commodore 64",
+      "date": "1987",
+      "title": "Barbarian (Death Sword, 1987) Back Cover - Commodore 64",
+      "list": [
+        "Covers",
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "fb68b3eab81744897b06a4dfd7a1c311",
+          "color": "rgb(40,24,24,1)",
+          "density": null,
+          "filename": "2764547-death-sword-commodore-64-back-cover.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/fb68b3eab81744897b06a4dfd7a1c311.jpg",
+          "protocol": "file",
+          "size": 127601,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 800,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 806,
+          "title": "2764547-death-sword-commodore-64-back-cover",
+          "date": "2023-08-22T09:50:57.129Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "title": "2205056-axe-of-rage-commodore-64-front-cover",
+      "date": "1988",
+      "computingPlatform": "Commodore 64",
+      "list": [
+        "Covers",
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "4ff6c0f243d03520d45ecbf4640d6958",
+          "color": "rgb(56,56,40,1)",
+          "density": null,
+          "filename": "2205056-axe-of-rage-commodore-64-front-cover.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/4ff6c0f243d03520d45ecbf4640d6958.jpg",
+          "protocol": "file",
+          "size": 103990,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 800,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 653,
+          "title": "2205056-axe-of-rage-commodore-64-front-cover",
+          "date": "2023-08-17T08:34:42.331Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "title": "2771148-axe-of-rage-commodore-64-front-cover",
+      "date": "1988",
+      "computingPlatform": "Commodore 64",
+      "list": [
+        "Covers",
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "e78c0c2f7b92eb1814766479f7c993ef",
+          "color": "rgb(24,24,24,1)",
+          "density": null,
+          "filename": "2771148-axe-of-rage-commodore-64-front-cover.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/e78c0c2f7b92eb1814766479f7c993ef.jpg",
+          "protocol": "file",
+          "size": 109849,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 800,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 648,
+          "title": "2771148-axe-of-rage-commodore-64-front-cover",
+          "date": "2023-08-17T08:37:14.457Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "title": "333825-conan-the-cimmerian-dos-front-cover",
+      "artist": "Boris Vallejo",
+      "computingPlatform": "DOS",
+      "date": "1991",
+      "list": [
+        "Covers",
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "803437f55b28f69b25a25c96ce0b2231",
+          "color": "rgb(152,168,152,1)",
+          "density": null,
+          "filename": "333825-conan-the-cimmerian-dos-front-cover.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/803437f55b28f69b25a25c96ce0b2231.jpg",
+          "protocol": "file",
+          "size": 129466,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 800,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 717,
+          "title": "333825-conan-the-cimmerian-dos-front-cover",
+          "date": "2023-08-17T09:17:06.278Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "date": "1992",
+      "title": "Barbarian (Death Sword, 1987) - Atari 8 Bit",
+      "list": [
+        "Covers",
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "1e4ad332f4c6406dd07b7430cb81db38",
+          "color": "rgb(72,120,152,1)",
+          "density": null,
+          "filename": "2517921-death-sword-atari-8-bit-full-cover.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/1e4ad332f4c6406dd07b7430cb81db38.jpg",
+          "protocol": "file",
+          "size": 110814,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 800,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 804,
+          "title": "2517921-death-sword-atari-8-bit-full-cover",
+          "date": "2023-08-22T09:51:53.050Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "date": "2002",
+      "artist": "Mark Schultz",
+      "media": "Book",
+      "title": "The Coming of Conan the Cimmerian 1",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "78bda7c683ba47a09f17e82a32df5e5e",
+          "color": "rgb(248,232,216,1)",
+          "density": null,
+          "filename": "413Ml2MQxqL.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/78bda7c683ba47a09f17e82a32df5e5e.jpg",
+          "protocol": "file",
+          "size": 30748,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 400,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 259,
+          "title": "413Ml2MQxqL",
+          "date": "2023-08-23T11:06:33.904Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "media": "Book",
+      "date": "2003",
+      "artist": "Mark Schultz",
+      "title": "The Coming of Conan the Cimmerian 2",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "48bc319630193e25a6916a804c022c5d",
+          "color": "rgb(56,56,56,1)",
+          "density": null,
+          "filename": "914yEQH3EZL.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/48bc319630193e25a6916a804c022c5d.jpg",
+          "protocol": "file",
+          "size": 944347,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 2560,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 1696,
+          "title": "914yEQH3EZL",
+          "date": "2023-08-22T08:41:54.775Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "media": "Book",
+      "date": "2004",
+      "artist": "Gary Gianni",
+      "title": " The Bloody Crown of Conan",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "908e2663f1caf9356757d1184f93b8d4",
+          "color": "rgb(56,56,56,1)",
+          "density": null,
+          "filename": "0345461525.01.S001.JUMBOXXX.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/908e2663f1caf9356757d1184f93b8d4.jpg",
+          "protocol": "file",
+          "size": 121147,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 1206,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 800,
+          "title": "0345461525.01.S001.JUMBOXXX",
+          "date": "2023-08-22T08:43:43.243Z"
+        }
+      ]
+    },
+    {
+      "@type": "Item",
+      "template": "https://tropy.org/v1/templates/id#usIQhatg",
+      "artist": "Greg Manchess",
+      "media": "Book",
+      "date": "2005",
+      "title": "The Conquering Sword of Conan",
+      "list": [
+        "Covers"
+      ],
+      "photo": [
+        {
+          "@type": "Photo",
+          "checksum": "b746358fa34d103dd304cbfa694c517b",
+          "color": "rgb(8,8,8,1)",
+          "density": null,
+          "filename": "conquering+sword+of+conan+howard.jpg",
+          "mimetype": "image/jpeg",
+          "orientation": 1,
+          "page": 0,
+          "path": "items/b746358fa34d103dd304cbfa694c517b.jpg",
+          "protocol": "file",
+          "size": 129187,
+          "template": "https://tropy.org/v1/templates/photo",
+          "angle": 0,
+          "brightness": 0,
+          "contrast": 0,
+          "height": 700,
+          "hue": 0,
+          "mirror": false,
+          "negative": false,
+          "saturation": 0,
+          "sharpen": 0,
+          "width": 463,
+          "title": "conquering+sword+of+conan+howard",
+          "date": "2023-08-22T08:47:25.315Z"
+        }
+      ]
+    }
+  ],
+  "version": "1.14.0"
+}
